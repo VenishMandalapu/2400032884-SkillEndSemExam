@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Marks</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Top Bar -->
+            <header class="top-bar">
+                <h1>Student Dashboard</h1>
+                <div class="user-info">
+                    <span>Welcome, Student</span>
+                    <img src="https://via.placeholder.com/40" alt="User Avatar">
+                </div>
+            </header>
+
+            <!-- Content Area -->
+            <main class="content">
+                <!-- Quick Stats -->
+                <section class="stats">
+                    <div class="card">
+                        <h3>Total Courses</h3>
+                        <p>5</p>
+                    </div>
+                    <div class="card">
+                        <h3>Average Marks</h3>
+                        <p>85%</p>
+                    </div>
+                    <div class="card">
+                        <h3>Notifications</h3>
+                        <p>3</p>
+                    </div>
+                </section>
+
+                <!-- Notifications -->
+                <section class="notifications">
+                    <h2>Notifications</h2>
+                    <div class="card">
+                        <p>New assignment due tomorrow.</p>
+                    </div>
+                    <div class="card">
+                        <p>Grade updated for Math course.</p>
+                    </div>
+                </section>
+
+                <!-- Recent Activities -->
+                <section class="activities">
+                    <h2>Recent Activities</h2>
+                    <div class="card">
+                        <p>Completed quiz in Science.</p>
+                    </div>
+                    <div class="card">
+                        <p>Submitted project in History.</p>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
